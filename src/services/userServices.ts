@@ -1,5 +1,5 @@
 /* eslint-disable no-useless-catch */
-const findUser = (data) => {
+const findUser = (data: any) => {
   try {
     const newData = {
       ...data,

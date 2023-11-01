@@ -1,7 +1,7 @@
 import { StatusCodes } from 'http-status-codes'
 import { userServices } from '~/services/userServices'
 
-const create = (req, res, next) => {
+const create = (req: any, res: any, next: any) => {
   try {
     const data = req.body
     const user = userServices.findUser(data)
